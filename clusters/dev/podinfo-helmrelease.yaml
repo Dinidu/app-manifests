@@ -14,5 +14,5 @@ spec:
   install:
     createNamespace: true
   interval: 10m0s
-  targetNamespace: podinfo
+  targetNamespace: flux-podinfo
 
