@@ -8,5 +8,5 @@ spec:
   interval: 30s
   ref:
     branch: master
-  url: git@github.com:Dinidu/podinfo.git
+  url: ssh://git@github.com:Dinidu/podinfo.git
 
