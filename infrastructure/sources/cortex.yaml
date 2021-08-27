@@ -1,0 +1,7 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: cortex
+spec:
+  interval: 1m
+  url: https://cortexproject.github.io/cortex-helm-chart
