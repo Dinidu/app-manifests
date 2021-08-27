@@ -7,7 +7,7 @@ spec:
   releaseName: cortex
   chart:
     spec:
-      chart: cortex-helm/cortex
+      chart: cortex
       sourceRef:
         kind: HelmRepository
         name: cortex
