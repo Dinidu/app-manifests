@@ -15,3 +15,5 @@ spec:
         - host: cortex.staging
           paths:
             - path: /
+    ingester:
+      replicas: 2
