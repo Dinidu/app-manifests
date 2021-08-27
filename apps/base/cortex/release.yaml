@@ -12,7 +12,7 @@ spec:
         kind: HelmRepository
         name: cortex
         namespace: flux-system
-  interval: 1m
+  interval: 5m
   install:
     remediation:
       retries: 3
