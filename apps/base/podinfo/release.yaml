@@ -17,7 +17,7 @@ spec:
     remediation:
       retries: 3
   # Default values
-  # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
+  # https://github.com/Dinidu/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     cache: redis-master.redis:6379
     ingress:
