@@ -10,7 +10,7 @@ spec:
     branch: multi-cluster
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/Dinidu/app-manifests
+  url: ssh://git@github.com/Dinidu/gitops-cd
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
